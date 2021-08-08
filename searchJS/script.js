@@ -22,7 +22,7 @@ function search() {
     const inputVal = input.value;
     const li = document.getElementsByTagName('li');
 
-    console.log(li);
+    // console.log(li);
     for (let index = 0; index < li.length; index++) {
         if (li[index].innerHTML.toLowerCase().includes(inputVal)) {
             li[index].style.display = "";
